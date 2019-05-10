@@ -1,0 +1,14 @@
+C:\Users\Barry-PC\source\repos\HttpTest\HttpTest\bin\Debug\netcoreapp2.1\HttpTest.deps.json
+C:\Users\Barry-PC\source\repos\HttpTest\HttpTest\bin\Debug\netcoreapp2.1\HttpTest.runtimeconfig.json
+C:\Users\Barry-PC\source\repos\HttpTest\HttpTest\bin\Debug\netcoreapp2.1\HttpTest.runtimeconfig.dev.json
+C:\Users\Barry-PC\source\repos\HttpTest\HttpTest\bin\Debug\netcoreapp2.1\HttpTest.dll
+C:\Users\Barry-PC\source\repos\HttpTest\HttpTest\bin\Debug\netcoreapp2.1\HttpTest.pdb
+C:\Users\Barry-PC\source\repos\HttpTest\HttpTest\obj\Debug\netcoreapp2.1\HttpTest.csprojAssemblyReference.cache
+C:\Users\Barry-PC\source\repos\HttpTest\HttpTest\obj\Debug\netcoreapp2.1\HttpTest.csproj.CoreCompileInputs.cache
+C:\Users\Barry-PC\source\repos\HttpTest\HttpTest\obj\Debug\netcoreapp2.1\HttpTest.RazorAssemblyInfo.cache
+C:\Users\Barry-PC\source\repos\HttpTest\HttpTest\obj\Debug\netcoreapp2.1\HttpTest.RazorAssemblyInfo.cs
+C:\Users\Barry-PC\source\repos\HttpTest\HttpTest\obj\Debug\netcoreapp2.1\HttpTest.AssemblyInfoInputs.cache
+C:\Users\Barry-PC\source\repos\HttpTest\HttpTest\obj\Debug\netcoreapp2.1\HttpTest.AssemblyInfo.cs
+C:\Users\Barry-PC\source\repos\HttpTest\HttpTest\obj\Debug\netcoreapp2.1\HttpTest.RazorTargetAssemblyInfo.cache
+C:\Users\Barry-PC\source\repos\HttpTest\HttpTest\obj\Debug\netcoreapp2.1\HttpTest.dll
+C:\Users\Barry-PC\source\repos\HttpTest\HttpTest\obj\Debug\netcoreapp2.1\HttpTest.pdb

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handlingslista</title>
+
+  <link rel="icon" href="https://hemmet.trygghansa.se/wp-content/themes/Standard/images/trygg-hansa-logo-buoy.png" type="image/png">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- ================ header start ================= -->	
+	<header class="header_area">
+    <div class="header-top">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <div id="logo">
+            <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</header>
+<!-- ================ header end ================= -->	
+
+<main class="site-main">
+
+
+  <!-- ================ banderoll area ================= --> 
+  <section class="home-banner-area" id="home">
+    <div class="container h-100">
+      <div class="home-banner">
+        <div class="text-center">
+          <h1>Datorkomponenter</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================ end banner area ================= -->
+  
+
+  <!-- ================ form start ================= --> 
+  <form class="form-search form-search-position">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm gutters-19">
+          <div class="form-group">
+            <label for="FormControlSelect1">Fullständiga namn *</label>
+            <input class="form-control" required id="namn" type="text" placeholder="Skriv in för- och efternamn..">
+            <div id="error-message" style="display:none">Vänligen fyll i ditt namn</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm gutters-19">
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Moderkort</label>
+            <select class="form-control" id="moderkort">
+              <option>ASUS ROG STRIX B450-E GAMING, Socket-AM4</option>
+              <option>ASUS ROG MAXIMUS XI EXTREME, S-1151</option>
+              <option>ASUS Z10PA-U8, Socket-2011-3</option>
+              <option>MSI Z370-A Pro, Socket-1151</option>
+              <option>MSI B360 Gaming Plus, Socket-1151</option>
+              <option>MSI X470 GAMING PRO, Socket-AM4</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm gutters-19">
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Processor</label>
+            <select class="form-control" id="processor">
+              <option>Intel Core i5-9600K Processor</option>
+              <option>Intel Core i7-9700K Processor1</option>
+              <option>AMD Ryzen Threadripper 1900X Processor</option>
+              <option>AMD Ryzen 3 1200 Processor</option>
+              <option>Intel Core i3-8350K Processor</option>
+              <option>AMD Ryzen 7 2700 Processor</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm gutters-19">
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Grafikkort</label>
+            <select class="form-control" id="grafikkort">
+              <option>ASUS GeForce RTX 2070 ROG STRIX Advanced</option>
+              <option>ASUS GeForce RTX 2080 ROG STRIX</option>
+              <option>MSI GeForce RTX 2080 Ti GAMING TRIO</option>
+              <option>Gigabyte GeForce RTX 2080 Ti AORUS</option>
+              <option>MSI GeForce GTX 1050 Ti 4GB OC</option>
+              <option>ASUS GeForce RTX 2060 PHOENIX</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm gutters-19">
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Minneskort</label>
+            <select class="form-control" id="minneskort">
+              <option>HyperX Fury DDR4 2666MHz 8GB</option>
+              <option>HyperX Predator DDR4 3000MHz 16GB</option>
+              <option>Crucial DDR4-2666MHz 16GB SODIMM</option>
+              <option>Kingston ValueR DDR3 1333MHz 8GB SODIMM</option>
+              <option>HyperX Fury DDR3 1600MHz 16GB</option>
+              <option>G.Skill Trident Z DDR4 RGB 16GB 3200Mhz</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row">
+        <div class="col-sm gutters-19">
+          <div class="form-group">
+            <div class="form-select-custom">
+              <label for="exampleFormControlSelect1">Nätaggregat</label>
+              <select class="form-control" id="nataggregat">
+                <option>Cooler Master MasterWatt 650</option>
+                <option>Seasonic Focus+ 550W 80+ GOLD PSU</option>
+                <option>Seasonic Focus+ 750W 80+ GOLD PSU</option>
+                <option>Corsair HX1200i, 1200W PSU</option>
+                <option>Phanteks Revolt Pro 1000W PSU</option>
+              </select>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <div class="row">
+        <div class="col-sm gutters-19">
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">För ytterligare information, vänligen informera.</label>
+            <input class="form-control" id="ovrigt" type="text" placeholder="Övrigt...">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm gutters-19">
+          <div class="form-group">
+            <button class="button button-form" id="toggle" onclick="myFunction()" type="button">Beställa</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <!-- ================ form end ================= --> 
+
+
+</main>
+
+
+
+<!-- ================ footer start ================= -->
+<footer class="footer-area section-gap">
+  <p class="col-md-15 text-center">
+  Copyright &copy; 2019 All rights reserved | Made by Barry Al-Jawari</a>
+</div>
+</div>
+</footer>
+<!-- ================ footer end ================= -->
+
+
+<!-- ================ javascript start ================= -->
+<script>
+
+  function myFunction() {
+
+    var inpObj = document.getElementById("namn");
+    if (!inpObj.checkValidity()) { /** Kollar ifall namnet input är skriven **/
+      inpObj.style.backgroundColor = "red"; /** Ändra bakgrunds färgen rött ifall användaren har ej skrivit in namn. **/
+      var errorMessage = document.getElementById("error-message");
+      errorMessage.style.display = "block";
+
+    } else {
+
+      inpObj.style.backgroundColor = "white";
+      var errorMessage = document.getElementById("error-message");
+      errorMessage.style.display = "white";
+
+      var data = {'namn': namn.value, 'moderkort': moderkort.value, 'processor': processor.value, 'grafikkort': grafikkort.value,
+      'minneskort': minneskort.value, 'nataggregat': nataggregat.value, 'ovrigt':ovrigt.value}
+
+      var json = JSON.stringify(data) /** Konventera till JSON **/
+
+      let req = new XMLHttpRequest();
+
+      req.onreadystatechange = function() {
+        if (this.readyState == 4) {
+
+          if (this.status == 200 && this.responseText == "0") { /** Kollar ifall request response är 200 samt att response ger oss värdet 0 = OK **/
+            console.log("Response is looking good! [" + this.status + "]");
+            document.getElementById("toggle").innerHTML = "Tack för beställning";
+            document.getElementById("toggle").disabled = true;
+            document.getElementById("toggle").style.backgroundColor = "#00ff00";
+
+          } else { /** Om det är inte OK. Skicka meddelande till användaren.  **/
+            console.log("Response is bad! [" + this.status + "] - Check if the server is on and connected!");
+            document.getElementById("toggle").innerHTML = "Gick ej att beställa!";
+            document.getElementById("toggle").disabled = true;
+            document.getElementById("toggle").style.backgroundColor = "red";
+            alert('Check Console logs for the issue')
+          }
+        }
+      };
+
+      req.open("post", "https://localhost:44363/api/values"); 
+      req.setRequestHeader("content-type", "application/json");
+      req.send(json);
+
+      setTimeout(function(){ //Uppdaterar sidan efter 5 sekunder.
+       window.location.reload(1);
+     }, 5000);
+
+    } 
+  } 
+
+</script>
+
+<!-- ================ javascript end ================= -->
+
+</body>
+</html>
